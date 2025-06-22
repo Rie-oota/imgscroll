@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  background-color: bisque;
+  height: 1200px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  margin: 10px;
+}
+
+.inview {
+  opacity: 0;
+  transition: 2s;
+}
+
+.inview.show {
+  opacity: 1;
+}
