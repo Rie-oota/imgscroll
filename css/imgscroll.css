@@ -13,13 +13,17 @@
   justify-content: center;
 }
 
-img {
+img,p {
   margin: 10px;
 }
 
 .inview {
   opacity: 0;
   transition: 2s;
+}
+
+.inview p {
+  font-size: 12px;
 }
 
 .inview.show {
