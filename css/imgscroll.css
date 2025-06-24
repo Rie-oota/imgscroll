@@ -11,9 +11,10 @@
 .flex {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
-img,p {
+img {
   margin: 10px;
 }
 
@@ -24,8 +25,17 @@ img,p {
 
 .inview p {
   font-size: 12px;
+  margin: 10px;
 }
 
 .inview.show {
   opacity: 1;
+}
+
+.text {
+  height: 100px;
+}
+
+.text p {
+  margin-left: 10px;
 }
