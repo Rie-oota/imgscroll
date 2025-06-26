@@ -8,6 +8,11 @@
   height: 1200px;
 }
 
+.img_scroll {
+  width: 87.5%;
+  margin: auto;
+}
+
 ul {
   display: flex;
   flex-wrap: wrap;
@@ -18,15 +23,25 @@ ul {
 ul li {
   list-style: none;
   width: 30%;
-  margin: 10px;
+  margin-right: 50px;
+}
+
+ul li:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.title_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 10px;
 }
 
 li p {
   font-size: 12px;
-  margin: 10px;
 }
 
-.img_area {
+.content {
   opacity: 0;
   transition: 2s;
 }
@@ -35,12 +50,13 @@ li p {
   width: 100%;
 }
 
-.img_area.show {
+.content.show {
   opacity: 1;
 }
 
 .text_area {
   height: 100px;
+  margin-top: 30px;
 }
 
 .text_area p {
